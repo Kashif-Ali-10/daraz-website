@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 102, 0);
+    align-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 10px 2px black;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    background-size: cover;
+    background-position: center;
+    background-image: url(daraz.logo.png);
+    width: 150px;
+    height: 60px;
+    margin-left: 20px;
+}
+.home-button{
+    width: 110px;
+    height: 45px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+
+}
+.home-button:hover{
+      box-shadow: 0px 0px 2px 2px black;
+}
+.button{
+    width: 46%;
+    height: 98%;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(home-button.png);
+    margin-left: 5px;
+    border-radius: 50px;
+}
+
+.searchbar {
+    width: 505px;
+    height: 40px;
+    margin-left: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    display: flex;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+input {
+    height: 100%;
+    width: 93%;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.searchicon {
+    width: 7%;
+    height: 100%;
+    background-color: rgba(107, 88, 83, 0.192);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(search.png);
+    background-size: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   
+}
+
+.cart {
+ width: 45px;
+ height: 45px;
+ background-position: center;
+ background-size: 40px;
+ background-image: url(pngimg.com\ -\ shopping_cart_PNG42.png);
+ border-radius: 10px;
+ margin-left: 10px;
+ background-color: white;
+ background-repeat: no-repeat;
+}
+.addtocart{
+    height: 40px;
+    width: 75px;
+    text-align: center;
+    margin-left: 30px;
+    color: white;
+    border-radius: 50px;
+}
+.addtocart:hover{
+    box-shadow: 0px 0px 2px 2px black;
+}
+.account{
+    width: 80px;
+    height: 40px;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+.account:hover{
+    box-shadow: 0px 0px 2px 2px black;
+}
+
+.icon3{
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(InShot_20250910_152322238.png);
+    margin-left: 5px;
+}
+.country1{
+    width: 85px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 20px;
+    color: white;
+    border-radius: 50px;
+
+}
+.country1:hover{
+    box-shadow: 0px 0px 2px 2px black;
+}
+.flag{
+    width: 50px;
+    height: 35px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(2560px-Flag_of_Pakistan.svg\ \(1\).png);
+    margin-left: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.cart-image{
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(pexels-karolina-grabowska-5632397.jpg);
+    align-content: end;
+}
+body{
+    justify-items: center;
+}
+.cart-page-img{
+    height: 425px;
+    width: 535px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(big\ banner.png);
+    margin-left: 60%;
+    margin-bottom: 300px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+     box-shadow: 0px 0px 3px 3px black;
+    
+}
+.checkout{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(255, 102, 0);
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+/* footer-style */
+
+ footer{
+        width: 100%;
+    }
+ .footpanel1{
+          background-color: rgba(255, 102, 0, 0.473);
+            color:white;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .footpanel2{
+            background-color: rgb(255, 102, 0);
+            color: white;
+            height: 300px;
+            display: flex;
+            justify-content: space-evenly;
+          }
+          ul a {
+            display: block;
+            margin-top: 10px;
+           
+          }
+          ul{
+            margin-top: 20px;
+          }
+          .foot-panel-3 {
+           background-color: rgb(255, 102, 0);
+           color: white;
+           border-top: 0.5px solid white;
+           height: 70px;
+           align-items: center;
+           display: flex;
+          }
+          .footlogo{
+            background-image: url(daraz.logo.png);
+            width: 143px;
+            height: 50px;
+            background-position: center;
+            background-size: cover;
+            align-items: center;
+            justify-content: center;
+            margin-left: 15px;
+          }
+          .english {
+            height: 38px;
+            width: 70px;
+            border: 1px solid white;
+            justify-items: center;
+            align-content: center;
+            margin-left: 50px;  
+          }
+          .country {
+              width: 200px;
+              height: 40px;
+              border: 1px solid white;
+              margin-left: 50px;
+              display: flex;
+              align-items:center;
+          }
